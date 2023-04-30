@@ -11,7 +11,6 @@ docker compose up
 # server
 cd server
 cp .env.example .env
-DB=dev yarn prisma migrate dev
 yarn run dev
 ```
 
