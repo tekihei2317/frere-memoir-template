@@ -11,6 +11,7 @@ docker compose up
 # server
 cd server
 cp .env.example .env
+yarn prisma generate
 yarn run dev
 ```
 

@@ -9,3 +9,8 @@ datasource db {
   provider = "mysql"
   url      = env("DATABASE_URL")
 }
+
+// モデルを追加するときに削除してください
+model Sample {
+  id Int @id
+}
